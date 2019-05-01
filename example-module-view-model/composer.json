@@ -1,0 +1,22 @@
+{
+  "name": "example/module-viewmodel",
+  "description": "1. Example Module - View Module",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "email": "info@johndoe.com",
+      "name": "John Doe"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Example\\ViewModel\\": ""
+    }
+  }
+}
