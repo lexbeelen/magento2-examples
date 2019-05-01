@@ -1,0 +1,9 @@
+<?php
+/** @var \Example\ViewModel\ViewModel\ProductList $viewModel */
+$viewModel = $block->getData('viewModel');
+?>
+<ul>
+    <?php foreach ($viewModel->getAllProducts() as $product): ?>
+        <li><?= $product->getName(); ?></li>
+    <?php endforeach; ?>
+</ul>
