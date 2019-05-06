@@ -1,0 +1,17 @@
+<div data-bind="scope: 'example-component'">
+    <h1 data-bind="text:title"></h1>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "example-component": {
+                        "component": "Example_UiComponent/js/component",
+                        "title": "Title"
+                     }
+                }
+            }
+        }
+    }
+</script>

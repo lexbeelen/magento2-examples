@@ -1,0 +1,22 @@
+{
+  "name": "example/module-uicomponent",
+  "description": "2. Example Module - Ui Component",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "email": "info@johndoe.com",
+      "name": "John Doe"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Example\\UiComponent\\": ""
+    }
+  }
+}
