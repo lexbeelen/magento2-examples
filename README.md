@@ -6,3 +6,4 @@
 
 [3. Example Theme - Frontend](example-theme-frontend)
  
+[4. Example Module - Custom Total](example-module-custom-total)

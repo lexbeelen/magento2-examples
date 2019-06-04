@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Sales:etc/sales.xsd">
+    <section name="quote">
+        <group name="totals">
+            <item name="custom_subtotal" instance="Example\CustomTotal\Model\Quote\CustomSubtotal" sort_order="20"/>
+            <item name="custom_total_discount" instance="Example\CustomTotal\Model\Quote\CustomCustomTotal" sort_order="100"/>
+        </group>
+    </section>
+</config>

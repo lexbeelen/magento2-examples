@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="checkout.cart.totals">
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="components" xsi:type="array">
+                        <item name="block-totals" xsi:type="array">
+                            <item name="children" xsi:type="array">
+                                <item name="custom_subtotal" xsi:type="array">
+                                    <item name="component" xsi:type="string">Example_CustomTotal/js/view/checkout/cart/totals/custom-subtotal</item>
+                                    <item name="sortOrder" xsi:type="string">20</item>
+                                    <item name="config" xsi:type="array">
+                                        <item name="title" xsi:type="string" translate="true">Subtotal</item>
+                                    </item>
+                                </item>
+                                <item name="custom_total_discount" xsi:type="array">
+                                    <item name="component" xsi:type="string">Example_CustomTotal/js/view/checkout/cart/totals/custom-total-discount</item>
+                                    <item name="sortOrder" xsi:type="string">100</item>
+                                    <item name="config" xsi:type="array">
+                                        <item name="title" xsi:type="string" translate="true">Discount</item>
+                                    </item>
+                                </item>
+                                <item name="subtotal" xsi:type="array">
+                                    <item name="config" xsi:type="array">
+                                        <item name="componentDisabled" xsi:type="boolean">true</item>
+                                    </item>
+                                </item>
+                            </item>
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>
